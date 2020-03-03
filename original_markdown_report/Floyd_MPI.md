@@ -1,4 +1,4 @@
-# Assignment2
+# Floyd_MPI
 
 <!-- TOC -->
 
