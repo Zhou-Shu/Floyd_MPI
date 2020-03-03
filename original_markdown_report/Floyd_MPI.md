@@ -68,6 +68,7 @@ It is noticed that the diagonal of the matrix contains only zeros. Therefore, fi
 
 ### Distributed Parallelism
 
+
 <font face="Times new" size=4 align="justify">
 
 We designed this parallel algorithm based on the Folyd algorithm. In the design of parallel algorithm, the decomposition of the problem usually has two forms: one is to decompose the space of problems into several smaller problem areas and then solved separately; The other is to decompose a big problem into several sub-problems according to the function, and then each sub-problem is solved in parallel.[2] For the shortest path problem between all point pairs, it is more convenient to choose the former after we adopting Floyd algorithm. In this case,  the strategy we used is to separate a huge matrix to several smaller matrices by their rows and allocating these smaller matrices for every process (or node). Like follow:
