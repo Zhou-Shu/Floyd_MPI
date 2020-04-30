@@ -1,6 +1,6 @@
 # Floyd_MPI
 
-Using floyd algorithm to calculate the shortest path
+Using floyd algorithm to calculate the shortest path of large sparse matrix
 
 command line：mpirun -n 4 ./my_solution file.in
 
