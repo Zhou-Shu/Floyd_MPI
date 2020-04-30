@@ -13,3 +13,5 @@ command line：mpirun -n 4 ./my_solution file.in
 1 1 0 1 
 3 1 0 3 
 ```
+
+See the report in the folder for more details and the proof of this algorithm theory
